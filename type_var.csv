@@ -1,0 +1,81 @@
+VAR,TYPE,ESCRIPTION
+MSSubClass,CAT,Identifies the type of dwelling involved in the sale. 
+MSZoning,CAT, Identifies the general zoning classification of the sale.
+LotFrontage,QT,Linear feet of street connected to property
+LotArea,QT,Lot size in square feet
+Street,CAT,Type of road access to property
+Alley,CAT,Type of alley access to property
+LotShape,CAT,General shape of property
+LandContour,CAT,Flatness of the property
+Utilities,CAT,Type of utilities available
+LotConfig,CAT,Lot configuration
+LandSlope,CAT, Slope of property
+Neighborhood,CAT, Physical locations within Ames city limits
+Condition1,CAT,Proximity to various conditions
+Condition2,CAT, Proximity to various conditions (if more than one is present)
+BldgType,CAT,Type of dwelling
+HouseStyle,CAT,Style of dwelling
+OverallQual,QL,Rates the overall material and finish of the house
+OverallCond,QL,Rates the overall condition of the house
+YearBuilt,QT, Original construction date
+YearRemodAdd,QT,Remodel date (same as construction date if no remodeling or additions)
+RoofStyle,CAT,Type of roof
+RoofMatl,CAT,Roof material
+Exterior1st,CAT,Exterior covering on house
+Exterior2nd,CAT,Exterior covering on house (if more than one material)
+MasVnrType,CAT, Masonry veneer type
+MasVnrArea,QT,Masonry veneer area in square feet
+ExterQual,QL,Evaluates the quality of the material on the exterior
+ExterCond,QL,Evaluates the present condition of the material on the exterior
+Foundation,CAT,Type of foundation
+BsmtQual,QL,Evaluates the height of the basement
+BsmtCond,QL,Evaluates the general condition of the basement
+BsmtExposure,QL,Refers to walkout or garden level walls
+BsmtFinType1,CAT,Rating of basement finished area
+BsmtFinSF1,QT,Type 1 finished square feet
+BsmtFinType2,CAT,Rating of basement finished area (if multiple types)
+BsmtFinSF2,QT,Type 2 finished square feet
+BsmtUnfSF,QT,Unfinished square feet of basement area
+TotalBsmtSF,QT,Total square feet of basement area
+Heating,CAT,Type of heating
+HeatingQC,QL,Heating quality and condition
+CentralAir,CAT, Central air conditioning
+Electrical,CAT, Electrical system
+1stFlrSF,QT, First Floor square feet
+2ndFlrSF,QT,Second floor square feet
+LowQualFinSF,QT,Low quality finished square feet (all floors)
+GrLivArea,QT,Above grade (ground) living area square feet
+BsmtFullBath,QT,Basement full bathrooms
+BsmtHalfBath,QT,Basement half bathrooms
+FullBath,QT,Full bathrooms above grade
+HalfBath,QT,Half baths above grade
+BedroomAbvGr,QT,Bedrooms above grade (does NOT include basement bedrooms)
+KitchenAbvGr,QT,Kitchens above grade
+KitchenQual,QL,Kitchen quality
+TotRmsAbvGrd,QT,Total rooms above grade (does not include bathrooms)
+Functional,CAT, Home functionality (Assume typical unless deductions are warranted)
+Fireplaces,QT,Number of fireplaces
+FireplaceQu,QL, Fireplace quality
+GarageType,CAT,Garage location
+GarageYrBlt,QT,Year garage was built
+GarageFinish,CAT,Interior finish of the garage
+GarageCars,QT,Size of garage in car capacity
+GarageArea,QT,Size of garage in square feet
+GarageQual,QL,Garage quality
+GarageCond,QL, Garage condition
+PavedDrive,CAT,Paved driveway
+WoodDeckSF,QT,Wood deck area in square feet
+OpenPorchSF,QT,Open porch area in square feet
+EnclosedPorch,QT,Enclosed porch area in square feet
+3SsnPorch,QT,Three season porch area in square feet
+ScreenPorch,QT, Screen porch area in square feet
+PoolArea,QT,Pool area in square feet
+PoolQC,QL,Pool quality
+Fence,QL, Fence quality
+MiscFeature,CAT,Miscellaneous feature not covered in other categories
+MiscVal,QT,$Value of miscellaneous feature
+MoSold,QL,Month Sold (MM)
+YrSold,QT,Year Sold (YYYY)
+SaleType,CAT,Type of sale
+SaleCondition,CAT,Condition of sale
+SalePrice,TARGET,Sale pice 
